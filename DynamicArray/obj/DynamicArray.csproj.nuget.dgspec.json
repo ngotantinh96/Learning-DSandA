@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Learning\\CSharp\\DSandA\\DynamicArray\\DynamicArray.csproj": {}
+    "D:\\Learning\\DS&A\\DSandA\\DynamicArray\\DynamicArray.csproj": {}
   },
   "projects": {
-    "d:\\Learning\\CSharp\\DSandA\\DynamicArray\\DynamicArray.csproj": {
+    "D:\\Learning\\DS&A\\DSandA\\DynamicArray\\DynamicArray.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Learning\\CSharp\\DSandA\\DynamicArray\\DynamicArray.csproj",
+        "projectUniqueName": "D:\\Learning\\DS&A\\DSandA\\DynamicArray\\DynamicArray.csproj",
         "projectName": "DynamicArray",
-        "projectPath": "d:\\Learning\\CSharp\\DSandA\\DynamicArray\\DynamicArray.csproj",
+        "projectPath": "D:\\Learning\\DS&A\\DSandA\\DynamicArray\\DynamicArray.csproj",
         "packagesPath": "C:\\Users\\OS\\.nuget\\packages\\",
-        "outputPath": "d:\\Learning\\CSharp\\DSandA\\DynamicArray\\obj\\",
+        "outputPath": "D:\\Learning\\DS&A\\DSandA\\DynamicArray\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\OS\\AppData\\Roaming\\NuGet\\NuGet.Config",

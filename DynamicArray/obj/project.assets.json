@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Learning\\CSharp\\DSandA\\DynamicArray\\DynamicArray.csproj",
+      "projectUniqueName": "D:\\Learning\\DS&A\\DSandA\\DynamicArray\\DynamicArray.csproj",
       "projectName": "DynamicArray",
-      "projectPath": "D:\\Learning\\CSharp\\DSandA\\DynamicArray\\DynamicArray.csproj",
+      "projectPath": "D:\\Learning\\DS&A\\DSandA\\DynamicArray\\DynamicArray.csproj",
       "packagesPath": "C:\\Users\\OS\\.nuget\\packages\\",
-      "outputPath": "D:\\Learning\\CSharp\\DSandA\\DynamicArray\\obj\\",
+      "outputPath": "D:\\Learning\\DS&A\\DSandA\\DynamicArray\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\OS\\AppData\\Roaming\\NuGet\\NuGet.Config",
