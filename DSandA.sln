@@ -5,7 +5,7 @@ VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicArray", "DynamicArray\DynamicArray.csproj", "{1048B524-FE5F-46FB-A8AF-FB73BA6767CC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlgorithmicToolbox", "LearningDS&A\AlgorithmicToolbox.csproj", "{0EED7D93-72ED-4EFB-9556-58876494BC46}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlgorithmicToolbox", "AlgorithmicToolbox\AlgorithmicToolbox.csproj", "{B523B6B7-0E2D-4A10-9778-E00FE44DD0BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{1048B524-FE5F-46FB-A8AF-FB73BA6767CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1048B524-FE5F-46FB-A8AF-FB73BA6767CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1048B524-FE5F-46FB-A8AF-FB73BA6767CC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0EED7D93-72ED-4EFB-9556-58876494BC46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0EED7D93-72ED-4EFB-9556-58876494BC46}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0EED7D93-72ED-4EFB-9556-58876494BC46}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0EED7D93-72ED-4EFB-9556-58876494BC46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B523B6B7-0E2D-4A10-9778-E00FE44DD0BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B523B6B7-0E2D-4A10-9778-E00FE44DD0BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B523B6B7-0E2D-4A10-9778-E00FE44DD0BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B523B6B7-0E2D-4A10-9778-E00FE44DD0BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

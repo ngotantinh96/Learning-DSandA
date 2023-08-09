@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4sChZNMEt72sU4ELjDhod2bYqsl/UagAoItMamjKmZKzwnj26+aD+7HJtdOEDGLevZyBa4ZFEY56Pe8dguRfcQ==",
+  "dgSpecHash": "Ah3uKWqsQzA+C8Z5Fo+tl0bpHXDNzcteRG567otqDUCdUuh2K50XQD27JGjfqVFLj6kkMfYAToxFBPc1/CfSXQ==",
   "success": true,
-  "projectFilePath": "D:\\Learning\\DS&A\\DSandA\\DynamicArray\\DynamicArray.csproj",
+  "projectFilePath": "D:\\Learning\\DS&A\\Learning-DSandA\\DynamicArray\\DynamicArray.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
