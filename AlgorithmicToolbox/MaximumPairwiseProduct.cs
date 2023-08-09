@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Linq;
-
 namespace MaximumPairwiseProduct
 {
     public class MaximumPairwiseProduct
@@ -10,8 +8,9 @@ namespace MaximumPairwiseProduct
             var input = Console.ReadLine();
             var arrayInput = Console.ReadLine();
             var arrayNumbers = arrayInput.Split(" ").Select(x => long.Parse(x)).ToArray();
-            Console.WriteLine(MaximumPairwiseProduct.MaximumPairwiseProductUsingGreedy(arrayNumbers));
+            Console.WriteLine(MaximumPairwiseProductUsingGreedy(arrayNumbers));
         }
+
         public static long MaximumPairwiseProductUsingSorting(long[] arrayNumbers)
         {
             Array.Sort(arrayNumbers);
