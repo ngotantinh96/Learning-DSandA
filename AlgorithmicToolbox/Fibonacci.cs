@@ -1,4 +1,4 @@
-﻿namespace MaximumPairwiseProduct
+﻿namespace AlgorithmicToolbox
 {
     public class Fibonacci
     {
@@ -16,7 +16,7 @@
             fiboNumbers[0] = 0;
             fiboNumbers[1] = 1;
 
-            for (int i = 2; i <= input; i++)
+            for (long i = 2; i <= input; i++)
             {
                 fiboNumbers[i] = fiboNumbers[i - 1] + fiboNumbers[i - 2];
             }
@@ -31,7 +31,7 @@
             long prev = 0;
             long curr = 1;
 
-            for (int i = 2; i <= input; i++)
+            for (long i = 2; i <= input; i++)
             {
                 long temp = curr;
                 curr += prev;

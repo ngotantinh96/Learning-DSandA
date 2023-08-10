@@ -1,5 +1,5 @@
 ﻿using System;
-namespace MaximumPairwiseProduct
+namespace AlgorithmicToolbox
 {
     public class MaximumPairwiseProduct
     {
@@ -22,7 +22,7 @@ namespace MaximumPairwiseProduct
             long highestNumber = 0;
             long secondHighestNumber = 0;
 
-            for (int i = 0; i < arrayNumbers.Length; i++)
+            for (long i = 0; i < arrayNumbers.Length; i++)
             {
                 if (arrayNumbers[i] > highestNumber)
                 {

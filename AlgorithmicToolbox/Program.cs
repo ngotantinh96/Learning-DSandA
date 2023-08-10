@@ -1,11 +1,12 @@
-﻿namespace MaximumPairwiseProduct
+﻿namespace AlgorithmicToolbox
 {
     class Program
     {
         static void Main(string[] args)
         {
             //MaximumPairwiseProduct.ExecuteTesting();
-            Fibonacci.ExecuteTesting();
+            //Fibonacci.ExecuteTesting();
+            GreatestCommonDivisor.ExecuteTesting();
         }
     }
 }
