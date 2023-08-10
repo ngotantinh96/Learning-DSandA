@@ -1,4 +1,6 @@
-﻿namespace AlgorithmicToolbox
+﻿using System.Numerics;
+
+namespace AlgorithmicToolbox
 {
     public class Fibonacci
     {
@@ -24,24 +26,24 @@
             return fiboNumbers[input];
         }
 
-        public static long MemoryEfficientFibonacci(long input)
+        public static BigInteger MemoryEfficientFibonacci(BigInteger input)
         {
             if (input <= 1) return input;
 
-            long prev = 0;
-            long curr = 1;
+            BigInteger prev = 0;
+            BigInteger curr = 1;
 
-            for (long i = 2; i <= input; i++)
+            for (int i = 2; i <= input; i++)
             {
-                long temp = curr;
-                curr += prev;
-                prev = temp;
+                BigInteger tempPrev = prev;
+                prev = curr;
+                curr += tempPrev;
             }
 
             return curr;
         }
 
-        public static long NaiveFibonacci(long input)
+        private static BigInteger NaiveFibonacci(long input)
         {
             if (input <= 1) return input;
             return NaiveFibonacci(input - 1) + NaiveFibonacci(input - 2);

@@ -6,7 +6,8 @@
         {
             //MaximumPairwiseProduct.ExecuteTesting();
             //Fibonacci.ExecuteTesting();
-            GreatestCommonDivisor.ExecuteTesting();
+            //GreatestCommonDivisor.ExecuteTesting();
+            LeastCommonMultiple.ExecuteTesting();
         }
     }
 }

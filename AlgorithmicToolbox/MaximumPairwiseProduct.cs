@@ -1,5 +1,4 @@
-﻿using System;
-namespace AlgorithmicToolbox
+﻿namespace AlgorithmicToolbox
 {
     public class MaximumPairwiseProduct
     {
@@ -11,13 +10,13 @@ namespace AlgorithmicToolbox
             Console.WriteLine(MaximumPairwiseProductUsingGreedy(arrayNumbers));
         }
 
-        public static long MaximumPairwiseProductUsingSorting(long[] arrayNumbers)
+        private static long MaximumPairwiseProductUsingSorting(long[] arrayNumbers)
         {
             Array.Sort(arrayNumbers);
             return arrayNumbers[arrayNumbers.Length - 1] * arrayNumbers[arrayNumbers.Length - 2];
         }
 
-        public static long MaximumPairwiseProductUsingGreedy(long[] arrayNumbers)
+        private static long MaximumPairwiseProductUsingGreedy(long[] arrayNumbers)
         {
             long highestNumber = 0;
             long secondHighestNumber = 0;
