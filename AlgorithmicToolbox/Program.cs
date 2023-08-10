@@ -7,7 +7,8 @@
             //MaximumPairwiseProduct.ExecuteTesting();
             //Fibonacci.ExecuteTesting();
             //GreatestCommonDivisor.ExecuteTesting();
-            LeastCommonMultiple.ExecuteTesting();
+            //LeastCommonMultiple.ExecuteTesting();
+            Josephus.ExecuteTesting();
         }
     }
 }
