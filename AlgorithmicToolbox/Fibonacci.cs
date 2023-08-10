@@ -35,9 +35,9 @@ namespace AlgorithmicToolbox
 
             for (int i = 2; i <= input; i++)
             {
-                BigInteger tempPrev = prev;
-                prev = curr;
-                curr += tempPrev;
+                BigInteger tempPrev = curr;
+                curr += prev;
+                prev = tempPrev;
             }
 
             return curr;
@@ -47,6 +47,37 @@ namespace AlgorithmicToolbox
         {
             if (input <= 1) return input;
             return NaiveFibonacci(input - 1) + NaiveFibonacci(input - 2);
+        }
+
+        private static long CalculateHugeFibonacciModulus(long input, long modulus)
+        {
+            if (input <= 1) return input % modulus;
+
+            long prev = 0;
+            long curr = 1;
+
+            for (long i = 2; i <= input; i++)
+            {
+                long temp = curr;
+                curr = (prev + curr) % modulus;
+                prev = temp;
+            }
+
+            return curr;
+        }
+
+        private static int LastDigitFibonacci(int input)
+        {
+            int a = 0, b = 1, c = 0;
+
+            for (int i = 1; i < input; i++)
+            {
+                c = (a + b) % 10;
+                a = b;
+                b = c;
+            }
+
+            return c;
         }
     }
 }
