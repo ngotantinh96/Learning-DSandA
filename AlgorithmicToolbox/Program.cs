@@ -8,7 +8,8 @@
             //Fibonacci.ExecuteTesting();
             //GreatestCommonDivisor.ExecuteTesting();
             //LeastCommonMultiple.ExecuteTesting();
-            Josephus.ExecuteTesting();
+            //Josephus.ExecuteTesting();
+            GreedyAlgorithms.ExecuteTesting();
         }
     }
 }
